@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </div>
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center overflow-x-hidden'>
-        <div className="text-5xl sm:text-6xl xl:text-7xl font-extralight font-mono w-full flex flex-col md:flex md:flex-row justify-center items-center ">
+        <div className="text-4xl sm:text-6xl xl:text-7xl font-extralight font-mono w-full flex flex-col md:flex md:flex-row justify-center items-center ">
           <div className="w-max shrink-0"><span className="text-neutral-800 dark:text-white">Hello, my name is {" "}</span></div>
           <div className="w-max">
             <div className=" text-green-500 animate-typing overflow-hidden text-left border-r-4 border-r-black dark:border-r-white w-fit pr-5 pl-4">{personalInfo.name}</div>

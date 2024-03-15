@@ -46,46 +46,50 @@ const ProjectComponent = (
 
     return(
         
-        <div className="rounded-xl border-2 p-4 max-h-[26rem] grid grid-rows-10 z-0">
+        <div className="rounded-xl border-2 p-4 max-h-[30rem] sm:max-h-[26rem] grid grid-rows-10 z-0">
             <h1 className="font-bold pb-2 row-span-1">{project.title}</h1>
-            <div className="px-8 py-8 row-span-7">
+            <div className="px-8 py-8 row-span-6 sm:row-span-7">
                 {project.images && project.images.length > 0 && (
-                    <img
+                    <Image
                         className="rounded-lg object-cover w-full h-56"
                         src={project.images[0]}
                         alt="Project Image"
+                        width={1000}
+                        height={1000}
                     />
                 )}
             </div>
-            <div className="text-sm flex row-span-2 items-start lg:items-center overflow-y-hidden">
+            <div className="text-sm flex row-span-3 sm:row-span-2 items-start 2xl:items-center overflow-y-hidden">
                 <p>{project.shortDesc}</p>
             
                 <Drawer>
-                    <DrawerTrigger><Button variant="outline">See more</Button></DrawerTrigger>
+                    <DrawerTrigger className=" h-full">
+                        <Button variant="outline">
+                            See more
+                        </Button>
+                    </DrawerTrigger>
                     <DrawerContent>
                         <DrawerHeader>
                         <DrawerTitle>{project.title}</DrawerTitle>
-                        <DrawerDescription>
+                        <DrawerDescription className=" max-h-full">
                             <p>{project.longDesc}</p>
-                            <div className="flex pt-4">
+                            <div className="flex flex-col lg:flex-row pt-4 space-y-4">
                                 {project.images && project.images.length > 0 && (
                                     <div className="w-full flex justify-center items-center">
-                                        <Carousel className="w-full max-w-xl flex justify-center items-center">
+                                        <Carousel className="w-full max-w-xs md:max-w-sm xl:max-w-xl flex justify-center items-center">
                                             <CarouselContent>
                                                 {project.images.map((photo, index) => (
-                                                    <div key={index}>
-                                                        <CarouselItem >
+                                                        <CarouselItem key={index}>
                                                             <div className="flex justify-center items-center h-full">
                                                                 <Image
-                                                                    height={1000}
-                                                                    width={1000}
+                                                                    height={900}
+                                                                    width={900}
                                                                     className="rounded-xl shadow-md object-cover"
                                                                     alt="Project Image"
                                                                     src={photo}
                                                                 />
                                                             </div>
                                                         </CarouselItem>
-                                                    </div>
                                                 ))}
                                             </CarouselContent>
                                             <CarouselPrevious />
@@ -93,7 +97,7 @@ const ProjectComponent = (
                                         </Carousel>
                                     </div>
                                 )}
-                                <div className="w-full flex justify-start items-center">
+                                <div className="w-full flex justify-start items-center text-sm">
                                     <ul>
                                         {project.skills.map((feature, index) => (
                                             <li key={index}>
