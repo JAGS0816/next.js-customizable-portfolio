@@ -4,6 +4,8 @@
 
 You might be wondering why this portfolio is built with Next.js if it only includes frontend functionality. The reason is that it's designed to enable you to seamlessly integrate your projects and APIs within the same domain.
 
+Visit https://jagsportfolio.vercel.app/
+
 ## Features
 
 - **Customizable:** Easily customize your portfolio by editing the `PortfolioConfig.tsx` file to include your personal information, project details, resume information, courses, and certifications.
