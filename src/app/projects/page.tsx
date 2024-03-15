@@ -27,7 +27,9 @@ const Page = () => {
                         {
                             projectsInfo.habilities
                             .map((item, key) => (
-                                <ToggleGroupItem key={key} value={item[0]}>{item[1]}</ToggleGroupItem>
+                                <div key={key}>
+                                    <ToggleGroupItem value={item[0]}>{item[1]}</ToggleGroupItem>
+                                </div>
                             ))
                         }
                     </ToggleGroup>
@@ -37,7 +39,9 @@ const Page = () => {
                         projectsInfo.projects
                         .filter((project) => (hability)?project.hability.includes(hability): true)
                         .map((project, key) => (
-                            <ProjectComponent project={project} key={key}/>
+                            <div key={key}>
+                                <ProjectComponent project={project}/>
+                            </div>
                         ))
                     }
                 </div>

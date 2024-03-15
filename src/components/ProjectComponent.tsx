@@ -73,17 +73,19 @@ const ProjectComponent = (
                                         <Carousel className="w-full max-w-xl flex justify-center items-center">
                                             <CarouselContent>
                                                 {project.images.map((photo, index) => (
-                                                    <CarouselItem key={index}>
-                                                        <div className="flex justify-center items-center h-full">
-                                                            <Image
-                                                                height={1000}
-                                                                width={1000}
-                                                                className="rounded-xl shadow-md object-cover"
-                                                                alt="Project Image"
-                                                                src={photo}
-                                                            />
-                                                        </div>
-                                                    </CarouselItem>
+                                                    <div key={index}>
+                                                        <CarouselItem >
+                                                            <div className="flex justify-center items-center h-full">
+                                                                <Image
+                                                                    height={1000}
+                                                                    width={1000}
+                                                                    className="rounded-xl shadow-md object-cover"
+                                                                    alt="Project Image"
+                                                                    src={photo}
+                                                                />
+                                                            </div>
+                                                        </CarouselItem>
+                                                    </div>
                                                 ))}
                                             </CarouselContent>
                                             <CarouselPrevious />
@@ -137,4 +139,4 @@ const ProjectComponent = (
     )
 }
 
-export default ProjectComponent;
+export default ProjectComponent

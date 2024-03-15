@@ -1,9 +1,9 @@
 import { GithubIcon, LinkedinIcon, Mail } from "lucide-react"
 
 export const personalInfo = {
-    socialNetworks: [[<GithubIcon/>, "https://github.com/JAGS0816"],
-                    [<LinkedinIcon/>, "https://www.linkedin.com/in/abrahamgs1608/"], 
-                    [<Mail/>, "mailto:abraham.gs16@outlook.com"]],
+    socialNetworks: [[<GithubIcon key={1}/>, "https://github.com/JAGS0816"],
+                    [<LinkedinIcon key={2}/>, "https://www.linkedin.com/in/abrahamgs1608/"], 
+                    [<Mail key={3}/>, "mailto:abraham.gs16@outlook.com"]],
     description: `Hello! I am an enthusiastic mechatronics engineer in my sixth semester of studies, passionate about the convergence of 
                     mechanics, electronics, and programming. My journey and skills have allowed me to explore various areas, and currently, 
                     I focus on the analysis, acquisition, and cleaning of data, where I have completed several projects. I also have experience 

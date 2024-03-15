@@ -38,11 +38,13 @@ export default function Home() {
           {
             personalInfo.socialNetworks
             .map((socialNet, index) => (
-              <Link href={socialNet[1] as string} target="_blank" key={index}>
-                <Button className=" z-0" variant={"outline"}>
-                  {socialNet[0]}
-                </Button>
-              </Link>
+              <div key={index}>
+                <Link href={socialNet[1] as string} target="_blank">
+                  <Button className=" z-0" variant={"outline"}>
+                    {socialNet[0]}
+                  </Button>
+                </Link>
+              </div>
             ))
           }
           

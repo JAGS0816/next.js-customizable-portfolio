@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className=" cursor-[url(https://cur.cursors-4u.net/games/gam-12/gam1113.cur),_default,url(https://cur.cursors-4u.net/games/gam-12/gam1101.cur),_pointer] ">
+    <html lang="en" className="">
       <Providers>
         <body className={inter.className}>
           <Navbar/>
@@ -25,5 +25,5 @@ export default function RootLayout({
         </body>
       </Providers>
     </html>
-  );
+  )
 }

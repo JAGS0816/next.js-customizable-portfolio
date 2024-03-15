@@ -43,7 +43,11 @@ const CourseCard = (
                     {
                         position.skills
                         .map((item, index) => (
-                            <Badge key={index} className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>{item}</Badge>
+                            <div key={index}>
+                                <Badge  className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
+                                    {item}
+                                </Badge>
+                            </div>
                         ))
                     }
                 </div>
@@ -91,11 +95,13 @@ const Page = () => {
                             {
                                 personalInfo.socialNetworks
                                 .map((socialNet, index) => (
-                                    <Link href={socialNet[1] as string} target="_blank" key={index}>
-                                        <Button className=" z-0" variant={"ghost"}>
-                                            {socialNet[0]}
-                                        </Button>
-                                    </Link>
+                                    <div key={index}>
+                                        <Link href={socialNet[1] as string} target="_blank" key={index}>
+                                            <Button className=" z-0" variant={"ghost"}>
+                                                {socialNet[0]}
+                                            </Button>
+                                        </Link>
+                                    </div>
                                 ))
                             }
                             
@@ -125,7 +131,11 @@ const Page = () => {
                                         {
                                             position.technologies
                                             .map((item, index) => (
-                                                <Badge className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"} key={index}>{item}</Badge>
+                                                <div key={index}>
+                                                    <Badge className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
+                                                        {item}
+                                                    </Badge>
+                                                </div>
                                             ))
                                         }
                                     </div>
@@ -154,7 +164,9 @@ const Page = () => {
                                         {
                                             position.technologies
                                             .map((item, index) => (
-                                                <Badge className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"} key={index}>{item}</Badge>
+                                                <div key={index}>
+                                                    <Badge className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>{item}</Badge>
+                                                </div>
                                             ))
                                         }
                                     </div>

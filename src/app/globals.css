@@ -86,8 +86,8 @@ body::-webkit-scrollbar-thumb{
 }
 
 html {
-  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1113.cur), default !important;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1113.cur);
 }
 * {
-  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1113.cur), pointer !important;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1113.cur);
 }
