@@ -269,6 +269,14 @@ export const resumeInfo = {
     ],
     coursesAndCert: [
         {
+            name: "Introduction to Deep Learning",
+            company: "Coursera",
+            date: "2024",
+            credentialID: "KHBV8U2DMRKF",
+            skills: ["Deep Learning", "Convolutional Neural Networks", "Recurrent Neural Networks", "Tensorflow", "Keras", "Generative AI", "Cycle GAN"],
+            link: "https://www.coursera.org/account/accomplishments/records/KHBV8U2DMRKF"
+        },
+        {
             name: "Big Data: Procesamiento y Análisis",
             company: "Coursera",
             date: "2023",

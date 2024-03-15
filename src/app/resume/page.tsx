@@ -43,11 +43,9 @@ const CourseCard = (
                     {
                         position.skills
                         .map((item, index) => (
-                            <div key={index}>
-                                <Badge  className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
+                                <Badge key={index} className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
                                     {item}
                                 </Badge>
-                            </div>
                         ))
                     }
                 </div>
@@ -127,15 +125,13 @@ const Page = () => {
                                     <div className=" text-xs">
                                         {position.description}
                                     </div>
-                                    <div className=" space-y-2">
+                                    <div className="space-y-2">
                                         {
                                             position.technologies
                                             .map((item, index) => (
-                                                <div key={index}>
-                                                    <Badge className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
+                                                    <Badge key={index} className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
                                                         {item}
                                                     </Badge>
-                                                </div>
                                             ))
                                         }
                                     </div>
@@ -160,13 +156,13 @@ const Page = () => {
                                     <div className=" text-xs">
                                         {position.description}
                                     </div>
-                                    <div className=" space-y-2">
+                                    <div className="space-y-2">
                                         {
                                             position.technologies
                                             .map((item, index) => (
-                                                <div key={index}>
-                                                    <Badge className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>{item}</Badge>
-                                                </div>
+                                                    <Badge key={index} className=" mr-2 hover:bg-green-500/10 text-[#3adb0d92]" variant={"outline"}>
+                                                        {item}
+                                                    </Badge>
                                             ))
                                         }
                                     </div>
