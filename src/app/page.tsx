@@ -34,7 +34,7 @@ export default function Home() {
           }
           <span></span>
         </div>
-        <div className=" pt-4 space-x-4">
+        <div className=" flex pt-4 space-x-4">
           {
             personalInfo.socialNetworks
             .map((socialNet, index) => (

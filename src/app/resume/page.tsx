@@ -91,7 +91,7 @@ const Page = () => {
                         <div className=" text-sm text-left">
                             {personalInfo.description}
                         </div>
-                        <div className=" pt-4 space-x-4">
+                        <div className=" flex pt-4 space-x-4">
                             {
                                 personalInfo.socialNetworks
                                 .map((socialNet, index) => (
