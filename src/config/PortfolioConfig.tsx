@@ -59,7 +59,7 @@ export const projectsInfo = {
             hability: ["ds"],
             shortDesc: `Implementation of a Cycle Generative Adversarial Network (CycleGAN) using Keras to generate images with the stylistic 
             characteristics of paintings by Claude Monet.`,
-            longDesc: `This project involved data collection, preprocessing, and model training to learn the mapping between input images and 
+            longDesc: `This project involved data preprocessing, and model training to learn the mapping between input images and 
             Monet-style paintings. It also included fine-tuning the model architecture, optimizing hyperparameters, and evaluating the generated 
             images for authenticity and fidelity to Monet's style.`,
             skills: [
