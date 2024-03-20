@@ -36,6 +36,24 @@ export const projectsInfo = {
             images: ["/lifecoincidences.png", "/lifecoincidences2.png"]
         },
         {
+            title: "Personal Portfolio",
+            link: "https://jagsportfolio.vercel.app/",
+            hability: ["fd"],
+            shortDesc: `This is my portfolio, currently it is only frontend. But it is built on Next.js so I can add my projects and deployed 
+            models directly.`,
+            longDesc: `This personal portfolio showcases my skills and projects with a modern and responsive design. Built using Next.js, it 
+            offers a sleek user experience with features like a dark/light theme toggle. Whether viewed on desktop or mobile devices, the 
+            portfolio ensures an optimal browsing experience.`,
+            skills: [
+                "Frontend Development",
+                "Next.js",
+                "Modern Design",
+                "Responsive Design",
+                "Theme Toggle"
+            ],
+            images: ["/portfolio.png"]
+        },     
+        {
             title: "Web Scraper for Real Estate Agent with AWS Lambda and Cron Jobs",
             hability: ["ws"],
             shortDesc: "Development of a web scraper tool designed to extract real estate data from various websites. The scraper is configured to run periodically every night using AWS Lambda and cron jobs.",
@@ -164,7 +182,9 @@ export const projectsInfo = {
                 "Data Cleaning",
                 "Web Scraping",
                 "Automation",
-                "HTML"
+                "HTML",
+                "BeautifulSoup",
+                "Selenium"
             ],
             images: ["/inmueblescontact.png", "/inmueblescontact2.png"]
         },
@@ -178,7 +198,9 @@ export const projectsInfo = {
                 "3D CAD",
                 "Minitab",
                 "Prototyping",
-                "Design of Experiments (DOE)"
+                "Design of Experiments (DOE)",
+                "Statistical Validation",
+                "Mechanical Design"
             ],
             images: ["/elderlyfurniture.png", "/elderlyfurniture2.png"]
         },
