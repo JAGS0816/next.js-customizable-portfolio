@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { personalInfo, resumeInfo } from "@/config/PortfolioConfig"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink } from "lucide-react"
+import { ArrowRight, ExternalLink } from "lucide-react"
 
 const CourseCard = (
     {position}: 
@@ -30,7 +30,7 @@ const CourseCard = (
                 {position.date}
             </div>
             <div className="col-span-6">
-                <div className=" group-hover:text-[#3adb0d92]">
+                <div className=" group-hover:text-[#3adb0d92] dark:group-hover:text-[#48ff1592]">
                     {position.name}
                 </div>
                 <div className=" text-sm">
@@ -170,6 +170,18 @@ const Page = () => {
                             </div>
                         ))
                     }
+                    <div className="w-full text-center">
+                        <Link
+                        href="/projects"
+                        target="_blank"
+                        className="flex justify-center items-center"
+                        >
+                            <span className=" text-sm">
+                                View all projects
+                            </span>
+                            <ArrowRight size={15} strokeWidth={0.5} />
+                        </Link>
+                    </div>
                     <div className=" text-lg font-semibold">
                         Academic Information
                     </div>
