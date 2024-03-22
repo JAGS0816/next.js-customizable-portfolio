@@ -271,6 +271,23 @@ export const resumeInfo = {
     projects: [
         {
             date: "2024",
+            title: "Web Scraper for Real Estate Agent with AWS Lambda and Cron Jobs",
+            company: "Freelance",
+            description: "This project utilizes BeautifulSoup for web scraping to extract real estate listings from multiple websites. The extracted data is then stored in a SQL database for further analysis and retrieval. Additionally, the data can be accessed and manipulated using Excel through an ODBC connection.",
+            technologies: [
+                "Python",
+                "Web Scraping",
+                "AWS Lambda",
+                "Cron Jobs",
+                "BeautifulSoup",
+                "SQL",
+                "Data Extraction",
+                "Data Storage",
+                "Data Manipulation",
+            ],
+        },
+        {
+            date: "2024",
             title: "Founder & FullStack Developer",
             company: "LifeCoincidences",
             description: `As the Founder and FullStack Developer at LifeCoincidences, I spearheaded the development of a cloud-based Web Application. 
@@ -279,6 +296,27 @@ export const resumeInfo = {
             ease of use and efficiency.`,
             technologies: ["Next.js", "TypeScript", "Pandas", "AWS (Lambda, S3)", "Data Manipulation", "ETL", "Geospatial Visualization", "MapBox", "Stripe"]
         },
+        {   
+            date: "2023",
+            title: "Automated Greenhouse",
+            company: "SF: CAM 18",
+            description: `This project was developed for the CAM 18 school in Chihuahua, Chihuahua. My participation in this project included 
+            collaboration on the PCB design for the hardware implementation, programming and firmware development for the ESP32 microcontroller,
+             design and training of a Convolutional Neural Network (CNN) for disease detection in tomato plants, implementation of an end-to-end 
+             IoT system, incorporating FreeRTOS and MQTT for communication, collaboration on an interactive dashboard using Node-RED for real-time
+              monitoring, and configuration and adaptation of the project to specific environmental conditions.`,
+            technologies: [
+                "C Programming",
+                "Eagle PCB",
+                "Python",
+                "Keras",
+                "Javascript",
+                "MQTT",
+                "UART",
+                "FreeRTOS",
+                "Convolutional Neural Networks"
+            ],
+        }
     ],
 
     education: [
