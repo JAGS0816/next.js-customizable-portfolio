@@ -170,16 +170,22 @@ const Page = () => {
                             </div>
                         ))
                     }
-                    <div className="w-full text-center">
+                    <div className="w-full flex justify-center">
                         <Link
                         href="/projects"
                         target="_blank"
-                        className="flex justify-center items-center"
-                        >
-                            <span className=" text-sm">
-                                View all projects
-                            </span>
-                            <ArrowRight size={15} strokeWidth={0.5} />
+                        className=""
+                        >  
+                            <Button
+                            variant={"outline"}
+                            className="border rounded-3xl px-3 py-2 flex justify-center items-center"
+                            >
+                             
+                                <span className=" text-sm ">
+                                    View all projects
+                                </span>
+                                <ArrowRight size={15} strokeWidth={0.5} />
+                            </Button>
                         </Link>
                     </div>
                     <div className=" text-lg font-semibold">
