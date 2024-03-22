@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { personalInfo, resumeInfo } from "@/config/PortfolioConfig"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, ExternalLink } from "lucide-react"
+import { ArrowRight, ExternalLink, Mail } from "lucide-react"
 
 const CourseCard = (
     {position}: 
@@ -89,6 +89,14 @@ const Page = () => {
                         <div className=" text-sm text-left">
                             {personalInfo.description}
                         </div>
+                        {
+                            personalInfo.email?
+                            <div className=" text-sm text-left pt-4 flex items-center justify-start space-x-1">
+                                <Mail className=" w-4 h-4"/><span>{personalInfo.email}</span>
+                            </div>:
+                            <></>
+                        }
+                        
                         <div className=" flex pt-4 space-x-4">
                             {
                                 personalInfo.socialNetworks

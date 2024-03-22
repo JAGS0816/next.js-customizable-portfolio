@@ -10,7 +10,8 @@ export const personalInfo = {
                     in Machine Learning and Deep Learning, creating models to solve various problems.`,
     titles: ["Mechatronics Engineer Student", "Data Scientist", "FullStack Developer"],
     name: "Abraham",
-    lastName: "García"
+    lastName: "García",
+    email: "abraham.gs16@outlook.com" //This mail is displayed on the website for contact purposes.
 }
 
 export const projectsInfo = {
