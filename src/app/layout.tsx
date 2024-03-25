@@ -28,8 +28,8 @@ export default function RootLayout({
           <Navbar/>
           {children}
         </body>
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || ""}/>
       </Providers>
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || ""}/>
     </html>
   )
 }
