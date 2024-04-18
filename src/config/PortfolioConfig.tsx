@@ -17,6 +17,21 @@ export const personalInfo = {
 export const projectsInfo = {
     projects: [
         {
+            title: "Airbnb Price Prediction",
+            link: "https://github.com/JAGS0816/airbnb-prediction-chrome-extension/blob/main/airbnb-price-prediction.ipynb",
+            hability: ["ds"],
+            shortDesc: `Airbnb Price Prediction is a project aimed at predicting accommodation prices on Airbnb to identify whether a listing is offering a fair price or not.`,
+            longDesc: `Airbnb Price Prediction project utilizes data analysis and machine learning techniques to explore various variables that may influence Airbnb accommodation prices, such as location, size, amenities, and the time of year. It aims to provide users with insights into the fairness of the prices listed on Airbnb.`,
+            skills: [
+                "Data Analysis with Python: Utilizing Python for efficient data analysis.",
+                "Machine Learning: Implementing machine learning algorithms for predictive modeling.",
+                "Data Cleaning: Data cleaning using Python Pandas",
+                "Feature Selection: Applying techniques of multicolinearity detection and feature engineering",
+                "Model Evaluation: Model Evaluation using relevant metrics",
+            ],
+            images: ["/airbnbextension.png", "/airbnbextension2.png"]
+        },
+        {
             title: "Life Coincidences",
             link: "https://www.lifecoincidences.com/",
             hability: ["fd", "ds"],
