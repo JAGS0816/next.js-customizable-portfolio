@@ -17,6 +17,23 @@ export const personalInfo = {
 export const projectsInfo = {
     projects: [
         {
+            title: "Vision-Based Robotic Movement Control",
+            hability: ["me", "ds"],
+            shortDesc: "Vision-Based Robotic Movement Control integrates computer vision with robotic systems for precision and automation in industrial applications.",
+            longDesc: "The Vision-Based Robotic Movement Control project integrates computer vision with robotic control systems to enhance precision and automation in industrial applications. By leveraging a YOLO-based object detection model and MQTT communication, the system detects specific objects and autonomously navigates the robot to the target positions.",
+            skills: [
+                "Computer Vision with YOLO: Implementing a custom YOLO architecture developed by me, modified to detect angles for accurate object detection.",
+                "MQTT Communication: Utilizing MQTT protocol for real-time robot control.",
+                "Image Processing: Preprocessing images using Python and OpenCV.",
+                "Robotic Control: Precise movement control of the robot based on detected objects.",
+                "User Confirmation: Interactive user interface for confirmation before executing robot movements.",
+                "System Integration: Seamless integration of vision and control systems for automated operations.",
+                "Mechanical Design: Designing mechanical components to support the robotic system.",
+                "Fanuc Robot Programming: Programming Fanuc robots for coordinated movements based on visual inputs."
+            ],
+            images: ["/rackloading1.png", "/rackloading2.png", "/rackloading3.png"]
+        },
+        {
             title: "Airbnb Price Prediction",
             link: "https://github.com/JAGS0816/airbnb-prediction-chrome-extension/blob/main/airbnb-price-prediction.ipynb",
             hability: ["ds"],
