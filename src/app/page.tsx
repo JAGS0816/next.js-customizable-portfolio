@@ -29,7 +29,7 @@ export default function Home() {
           {
             personalInfo.titles
             .map((title, index) => (
-              <span key={index}><span className=" hover:text-green-300 duration-300">{title}</span>{index != 2 ? " | " : ""}</span>
+              <span key={index}><span className=" hover:text-green-300 duration-300">{title}</span>{index != personalInfo.titles.length-1 ? " | " : ""}</span>
             ))
           }
           <span></span>

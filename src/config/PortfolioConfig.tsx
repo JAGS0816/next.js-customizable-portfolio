@@ -367,7 +367,7 @@ export const resumeInfo = {
             date: "2021 - 2025",
             degree: "Bachelor of Engineering in Mechatronics",
             institution: "Tecnológico de Monterrey",
-            description: "Líderes del Mañana 8th Generation Award to young students with outstanding cognitive, social and leadership skills."
+            description: "Líderes del Mañana 8th Generation - 100% scholarship awarded to young students demonstrating exceptional academic, social, and leadership abilities."
         }
     ],
     coursesAndCert: [
