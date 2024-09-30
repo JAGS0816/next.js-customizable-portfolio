@@ -314,6 +314,21 @@ export const resumeInfo = {
     projects: [
         {
             date: "2024",
+            title: "Vision-Based Robotic Movement Control",
+            company: "Essilor Luxottica",
+            description: "The Vision-Based Robotic Movement Control project integrates computer vision with robotic control systems to enhance precision and automation in industrial applications. By leveraging a YOLO-based object detection model and MQTT communication, the system detects specific objects and autonomously navigates the robot to the target positions.",
+            technologies: [
+                "PyTorch",
+                "YOLO Architecture",
+                "MQTT Communication",
+                "OpenCV",
+                "Fanuc Robots",
+                "SolidWorks",
+                "Raspberry PI",
+            ],
+        },
+        {
+            date: "2024",
             title: "Web Scraper for Real Estate Agent with AWS Lambda and Cron Jobs",
             company: "Freelance",
             description: "This project utilizes BeautifulSoup for web scraping to extract real estate listings from multiple websites. The extracted data is then stored in a SQL database for further analysis and retrieval. Additionally, the data can be accessed and manipulated using Excel through an ODBC connection.",
