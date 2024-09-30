@@ -4,11 +4,11 @@ export const personalInfo = {
     socialNetworks: [[<GithubIcon key={1}/>, "https://github.com/JAGS0816"],
                     [<LinkedinIcon key={2}/>, "https://www.linkedin.com/in/abrahamgs1608/"], 
                     [<Mail key={3}/>, "mailto:abraham.gs16@outlook.com"]],
-    description: `Hello! I am an enthusiastic mechatronics engineer in my sixth semester of studies, passionate about the convergence of 
+    description: `Hello! I am an enthusiastic mechatronics engineer in my seventh semester of studies, passionate about the convergence of 
                     mechanics, electronics, and programming. My journey and skills have allowed me to explore various areas, and currently, 
                     I focus on the analysis, acquisition, and cleaning of data, where I have completed several projects. I also have experience 
                     in Machine Learning and Deep Learning, creating models to solve various problems.`,
-    titles: ["Mechatronics Engineer Student", "Data Scientist", "FullStack Developer"],
+    titles: ["Mechatronics Engineer Student", "Data Scientist"],
     name: "Abraham",
     lastName: "García",
     email: "abraham.gs16@outlook.com" //This mail is displayed on the website for contact purposes.
@@ -22,7 +22,7 @@ export const projectsInfo = {
             shortDesc: "Vision-Based Robotic Movement Control integrates computer vision with robotic systems for precision and automation in industrial applications.",
             longDesc: "The Vision-Based Robotic Movement Control project integrates computer vision with robotic control systems to enhance precision and automation in industrial applications. By leveraging a YOLO-based object detection model and MQTT communication, the system detects specific objects and autonomously navigates the robot to the target positions.",
             skills: [
-                "Computer Vision with YOLO: Implementing a custom YOLO architecture developed by me, modified to detect angles for accurate object detection.",
+                "Computer Vision with YOLO: Implementing a custom YOLO architecture developed in PyTorch from scratch, modified to detect angles for accurate object detection.",
                 "MQTT Communication: Utilizing MQTT protocol for real-time robot control.",
                 "Image Processing: Preprocessing images using Python and OpenCV.",
                 "Robotic Control: Precise movement control of the robot based on detected objects.",
@@ -279,6 +279,16 @@ export const projectsInfo = {
 
 export const resumeInfo = {
     experience: [
+        {
+            date: "2024 - PRESENT",
+            title: "Machine Learning Researcher",
+            company: "Mynd",
+            description: `At Mynd, I automate processes using Large Language Models (LLMs) and Natural Language Processing (NLP) techniques to 
+            analyze large volumes of unstructured data. By applying hierarchical clustering and graph-based methods, I optimize information 
+            extraction, reducing the number of papers for review by up to 85%. I have developed a preliminary prototype that cuts processing time 
+            from over a week to just a few minutes, enabling faster, data-driven decision-making.`,
+            technologies: ["Natural Language Processing (NLP)", "Large Language Models (LLMs)", "Clustering (Agglomerative, KMeans)", "Graph-based Methods", "Flask", "MongoDB"]
+        },
         {
             date: "2022 - PRESENT",
             title: "Web Scraping Engineer",
