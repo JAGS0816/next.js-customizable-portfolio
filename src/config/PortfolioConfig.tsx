@@ -4,11 +4,9 @@ export const personalInfo = {
     socialNetworks: [[<GithubIcon key={1}/>, "https://github.com/JAGS0816"],
                     [<LinkedinIcon key={2}/>, "https://www.linkedin.com/in/abrahamgs1608/"], 
                     [<Mail key={3}/>, "mailto:abraham.gs16@outlook.com"]],
-    description: `Hello! I am an enthusiastic mechatronics engineer in my seventh semester of studies, passionate about the convergence of 
-                    mechanics, electronics, and programming. My journey and skills have allowed me to explore various areas, and currently, 
-                    I focus on the analysis, acquisition, and cleaning of data, where I have completed several projects. I also have experience 
-                    in Machine Learning and Deep Learning, creating models to solve various problems.`,
-    titles: ["Mechatronics Engineer Student", "Data Scientist"],
+    description: `Hello! I'm a Mechatronics Engineer with a strong foundation in mechanics, electronics, and software, now specialized in data science and artificial intelligence. Throughout my career, I’ve developed end-to-end solutions combining data acquisition, cleaning, and modeling—delivering impactful results in areas like agriculture, automation, and natural language processing. My work spans from building predictive models and fine-tuning neural networks to designing embedded systems and IoT tools. I'm passionate about solving real-world problems through intelligent, scalable systems, and I’m always eager to learn, collaborate, and build.
+`,
+    titles: ["Mechatronics Engineer", "Data Scientist", "Machine Learning Engineer"],
     name: "Abraham",
     lastName: "García",
     email: "abraham.gs16@outlook.com" //This mail is displayed on the website for contact purposes.
@@ -281,14 +279,34 @@ export const resumeInfo = {
     experience: [
         {
             date: "2024 - PRESENT",
+            title: "Mechatronics & Data Scientist",
+            company: "Fyffes",
+            description: `At Fyffes, I combined mechatronics and data science to develop intelligent systems for agricultural optimization. I built custom devices to capture data from pineapples, integrating sensors with embedded systems. On the data side, I trained ensemble models to predict banana yield using historical and weather data (R² up to 0.9), and built an LSTM to estimate pineapple weight with a 20g MAE. I also developed a minimal AWS-based backend for automating data collection, and presented my findings to stakeholders to support data standardization and decision-making.`,
+            technologies: ["Embedded Systems", "Sensor Integration", "3D Design", "Ensemble Learning", "LSTM", "PyTorch", "AWS Lambda", "RDS", "Pandas", "APIs"]
+        },
+
+        {
+            date: "2024",
             title: "Machine Learning Researcher",
             company: "Mynd",
-            description: `At Mynd, I automate processes using Large Language Models (LLMs) and Natural Language Processing (NLP) techniques to 
-            analyze large volumes of unstructured data. By applying hierarchical clustering and graph-based methods, I optimize information 
-            extraction, reducing the number of papers for review by up to 85%. I have developed a preliminary prototype that cuts processing time 
-            from over a week to just a few minutes, enabling faster, data-driven decision-making.`,
-            technologies: ["Natural Language Processing (NLP)", "Large Language Models (LLMs)", "Clustering (Agglomerative, KMeans)", "Graph-based Methods", "Flask", "MongoDB"]
-        },
+            description: `At Mynd, I built a contextual classification system to extract insights from scientific papers and patents. 
+            I developed a graph-based pipeline that clusters domain-specific n-grams using embeddings and unsupervised techniques 
+            like Louvain and greedy heuristics, enabling users to explore and label concepts interactively. I also built a 
+            parallel classification system using asynchronous few-shot prompting with the OpenAI API, and fine-tuned BERT models 
+            to generate domain-adapted embeddings. These tools reduced manual classification time from days to minutes, 
+            supporting scalable, exploratory knowledge discovery.`,
+            technologies: [
+                "Graph-based NLP",
+                "OpenAI API (few-shot prompting)",
+                "Transformers (BERT)",
+                "Graph Clustering (Louvain)",
+                "Greedy Heuristics",
+                "MongoDB",
+                "Python (asyncio, Flask)",
+                "Next.js"
+            ]
+            },
+
         {
             date: "2022 - PRESENT",
             title: "Web Scraping Engineer",
@@ -312,6 +330,24 @@ export const resumeInfo = {
     ],
 
     projects: [
+        {
+            date: "2025",
+            title: "Greenhouse Monitoring Robot",
+            company: "Tecnológico de Monterrey",
+            description: "Built a rail-guided robot for greenhouse monitoring, combining mechatronic design with edge AI. The system uses a Jetson Nano running ROS2 to process real-time video for fruit counting and human detection using deep learning. Remote control is handled via WebSocket communication with a PC, and spatial mapping is supported with an RPLIDAR S2. This low-cost, scalable platform enables remote crop supervision and worker tracking.",
+            technologies: [
+                "Jetson Nano",
+                "ROS2",
+                "PyTorch",
+                "OpenCV",
+                "RPLIDAR S2",
+                "Edge AI",
+                "WebSockets",
+                "Mechatronic Design",
+                "SolidWorks"
+            ]
+        },
+
         {
             date: "2024",
             title: "Vision-Based Robotic Movement Control",
