@@ -277,56 +277,46 @@ export const projectsInfo = {
 
 export const resumeInfo = {
     experience: [
-        {
-            date: "2024 - PRESENT",
-            title: "Mechatronics & Data Scientist",
-            company: "Fyffes",
-            description: `At Fyffes, I combined mechatronics and data science to develop intelligent systems for agricultural optimization. I built custom devices to capture data from pineapples, integrating sensors with embedded systems. On the data side, I trained ensemble models to predict banana yield using historical and weather data (R² up to 0.9), and built an LSTM to estimate pineapple weight with a 20g MAE. I also developed a minimal AWS-based backend for automating data collection, and presented my findings to stakeholders to support data standardization and decision-making.`,
-            technologies: ["Embedded Systems", "Sensor Integration", "3D Design", "Ensemble Learning", "LSTM", "PyTorch", "AWS Lambda", "RDS", "Pandas", "APIs"]
-        },
+    {
+        date: "2022 - Present",
+        title: "SWE (Web Scraping) - Freelance",
+        company: "Freelance",
+        description: `Designed and deployed scalable data pipelines with Selenium and Scrapy, ensuring reliability, fault tolerance, and efficiency across multiple domains.
+        Developed and maintained software following best practices, including version control, modular design, and CI/CD workflows.
+        Implemented robust data cleaning, normalization, and persistence with Pandas and SQL, enabling consistent downstream consumption.
+        Built and managed AWS-based services (Lambda/RDS) for scheduled jobs, providing near real-time data availability at scale.`,
+        technologies: ["SQL", "Python", "Selenium", "Scrapy", "Pandas", "AWS Lambda", "RDS"]
+    },
+    {
+        date: "2024 - 2025",
+        title: "Software Engineer & Data Scientist",
+        company: "Fyffes",
+        description: `Developed distributed backend services on AWS (Lambda/RDS) to automate data capturing.
+        Delivered embedded software for microcontrollers to automate real-time sensor acquisition and integration with cloud systems.
+        Built predictive models (ensembles, LSTM) for crop yield and weight estimation, achieving 0.9 R² and 20g MAE respectively.
+        Engineered feature extraction pipelines integrating external weather APIs and spatial farm data.`,
+        technologies: ["Python", "SQL", "APIs", "PyTorch", "AWS Lambda", "RDS", "C", "Pandas"]
+    },
+    {
+        date: "2024",
+        title: "Machine Learning Engineer",
+        company: "Mynd",
+        description: `Implemented a graph-based classification pipeline using embeddings and clustering (Louvain, greedy heuristics) to organize scientific concepts.
+        Built an asynchronous backend with OpenAI’s API for large-scale auto-labeling, enabling batch processing of thousands of n-grams.
+        Fine-tuned a BERT model on domain-specific corpora, improving embedding quality and downstream classification accuracy.
+        Reduced manual labeling workflows from days to minutes through Full-Stack system.`,
+        technologies: ["Transformers", "Scikit-learn", "OpenAI API", "MongoDB", "Python", "BERT", "Graph Clustering"]
+    },
 
-        {
-            date: "2024",
-            title: "Machine Learning Researcher",
-            company: "Mynd",
-            description: `At Mynd, I built a contextual classification system to extract insights from scientific papers and patents. 
-            I developed a graph-based pipeline that clusters domain-specific n-grams using embeddings and unsupervised techniques 
-            like Louvain and greedy heuristics, enabling users to explore and label concepts interactively. I also built a 
-            parallel classification system using asynchronous few-shot prompting with the OpenAI API, and fine-tuned BERT models 
-            to generate domain-adapted embeddings. These tools reduced manual classification time from days to minutes, 
-            supporting scalable, exploratory knowledge discovery.`,
-            technologies: [
-                "Graph-based NLP",
-                "OpenAI API (few-shot prompting)",
-                "Transformers (BERT)",
-                "Graph Clustering (Louvain)",
-                "Greedy Heuristics",
-                "MongoDB",
-                "Python (asyncio, Flask)",
-                "Next.js"
-            ]
-            },
-
-        {
-            date: "2022 - PRESENT",
-            title: "Web Scraping Engineer",
-            company: "Freelance",
-            description: `As a specialized freelancer in web scraping, I focus on the automated extraction and cleansing of data from the web. 
-            I utilize advanced tools and techniques to efficiently gather and process data from various sources on the internet. My expertise 
-            lies in transforming raw web data into structured and actionable data, providing valuable information for businesses and 
-            organizations.`,
-            technologies: ["SQL", "Python", "BeautifulSoup", "Selenium", "Scrapy", "Pandas", "Amazon Web Services (AWS)", "SQL databases"
-            ]
-        },
-        {
-            date: "2023",
-            title: "Engineering Intern",
-            company: "Figeac Aero",
-            description: `At Figeac Aero Mexico, my work focused on counting and analyzing cycle times in manufacturing processes. 
-            I identified deviations from established standards and proposed improvements to optimize efficiency and product quality. 
-            Additionally, I integrated various data sources to obtain valuable information.`,
-            technologies: ["Pandas", "statsmodels", "Excel", "Matplotlib", "Seaborn"]
-        },        
+    {
+        date: "2023",
+        title: "Engineering Intern",
+        company: "Figeac Aero",
+        description: `At Figeac Aero Mexico, my work focused on counting and analyzing cycle times in manufacturing processes. 
+        I identified deviations from established standards and proposed improvements to optimize efficiency and product quality. 
+        Additionally, I integrated various data sources to obtain valuable information.`,
+        technologies: ["Pandas", "statsmodels", "Excel", "Matplotlib", "Seaborn"]
+    },        
     ],
 
     projects: [
