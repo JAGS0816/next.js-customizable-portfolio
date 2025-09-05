@@ -6,7 +6,7 @@ export const personalInfo = {
                     [<Mail key={3}/>, "mailto:abraham.gs16@outlook.com"]],
     description: `Hello! I'm a Mechatronics Engineer with a strong foundation in mechanics, electronics, and software, now specialized in data science and artificial intelligence. Throughout my career, I’ve developed end-to-end solutions combining data acquisition, cleaning, and modeling—delivering impactful results in areas like agriculture, automation, and natural language processing. My work spans from building predictive models and fine-tuning neural networks to designing embedded systems and IoT tools. I'm passionate about solving real-world problems through intelligent, scalable systems, and I’m always eager to learn, collaborate, and build.
 `,
-    titles: ["Mechatronics Engineer", "Data Scientist", "Machine Learning Engineer"],
+    titles: ["Software Engineer", "Data Scientist", "Machine Learning Engineer"],
     name: "Abraham",
     lastName: "García",
     email: "abraham.gs16@outlook.com" //This mail is displayed on the website for contact purposes.
